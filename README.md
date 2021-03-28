@@ -1,12 +1,12 @@
-# SWDV 610 - Week 8: Final Project
+# SWDV 690 - Capstone User Interface
 
-- Github: https://github.com/christopherjacksonjr/SWDV610-Final-Project
+- Github: https://github.com/christopherjacksonjr/SWDV690-capstone-ui
 
 ---
 ## :moneybag: Environments
 
 Environment | URL
-- Thonny | https://thonny.org/
+- Balsamiq | https://balsamiq.com/
 
 ---
 ## :briefcase: Contacts
@@ -14,48 +14,28 @@ Environment | URL
 - Developer: Christopher Jackson (cjackson19@live.maryville.edu)
 
 ---
-## :money_with_wings: Working with Code
 
 ### Spin up
 
-* [Thonny](https://thonny.org/)
+* [Balsamiq](https://balsamiq.com/)
 
-**If you have the above installed, run these commands in order:**
+### WorkFlow to MAIN
 
-1. `Run current script`: runs program in Thonny.
+1. Create a new branch off the `main` branch.
+1. When you are done with this feature, submit a "Pull Request" into main.
+1. When the Pull Request is approved and merged into `main`, the code will be updated.
 
-### WorkFlow to MASTER
 
-1. Create a new branch off the `master` branch.
-1. When you are done with this feature, submit a "Pull Request" into master.
-1. When the Pull Request is approved and merged into `master`, the code will be updated.
+## :bento: Overview
 
-### Clean up
+Purpose: Vacation Hub. A blog for users to upload photos of their vacations. Users will be able to add details of their experience, ratings, and pricing information for others to see. Vacation Hub is designed to help its users plan a cost efficient vacation all in one place. This will serve as a 'one stop shop' for planning a vacation all the way from picking a location, looking at prices, to posting photos to share with your friends and family.
 
-**Run this command:**
-1. Mac: `CMD + k`: clean Thonny terminal window.
-
----
-
-## :bento: Technical Overview
-
-Technology | Description
---- | ---
-[Queue] | A queue is a linear data structure that stores items in First In First Out (FIFO) manner.
+Description: The user interface (ui) is an important piece of this project because it helps enhance the user experience. The UI will have a clean, neat, user-friendly interface to make this vacation planning expereince simple. The application is desgined for all people from different age groups, tehcnical abilities, and backgrounds so to have a easy to use UI is critical to the purpose behind the entire application. 
 
 ### :lock: Passwords
 
 N/A.
 
-### :rotating_light: Known Issues + Feedback
+### :rotating_light: Known Issues
 
-Known Issues: Error handling messages flicker instead of staying until the user enters another item. Also, whenever closing the window I get graphics.py error message - I think it may be because of the While loop but was not able to get rid of it. Planned on adding BST to sort the items of the shopping cart to the output but I spent too much time on the UI and fixing errors.
-
-Feedback: Great assignemnt! My goal here was to solve the health problem that America is facing right now. I think the issue there is that people don't know exactly what foods are healthy and which ones are not. This application I wrote allows the user to see in real-time what are the good and bad choices in their shopping cart and motivates them to make better decisions. 
-
----
-### :memo: Resources / Documentation
-
-Data Structures and Algorithms in Python (1st Edition) by Michael Goodrich
-
----
+Known Issues: None.
