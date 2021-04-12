@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Vacation Hub</title>
+</head>
+<body>
+     <!--Navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="brand">
+            <a class="navbar-brand" href="index.html">
+                <img src="vacation_hub.png" class="d-inline-block align-top" alt="Vacation Hub">
+            </a>
+            <a class="image-text navbar-brand" href="index.html">Vacation Hub</a>
+        </div>
+        <div class="items">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="posts.html">Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trips.html">Trips</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="groups.html">Groups</a>
+                </li>
+                </ul>
+            </div>
+            <button class="sign-in-button" href="signup.html">
+                Sign In
+            </button>
+        </div>
+    </nav>
+
+    <!--Attractions-->
+    <div class="attractions container-fluid">
+        <div class="row">
+            <ul class="top-attractions">
+                <li class="col-lg-2">
+                    <a href="activities.html">Things to do</a>
+                </li>
+                <li class="col-lg-2">
+                    <a href="restaurants.html">Restaurants</a>
+                </li>
+                <li class="col-lg-2">
+                    <a href="hotels.html">Hotels</a>
+                </li class="col-lg-2">
+                <li class="col-lg-2">
+                    <a href="vacations.html">Vacations</a>
+                </li>
+                <li class="col-lg-2">
+                    <a href="ideas.html">Ideas</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Posts-->
+   <div class="container-fluid">
+        <div class="row">
+            <div class="top-posts">
+                <h3>Top Activities</h3>
+                <p class="lead">View top rated activities.</p>
+                <div id="flip-card-container">
+                    <div class="flip-card">
+                        <div class="flip-card-image">
+                            <img src="vacation-sample.jpeg">
+                        </div>
+                        <div class="flip-card-stats">
+                            <i class="far fa-heart">Like</i>
+                            <i class="far fa-comment">Comment</i>
+                            <i class="far fa-bookmark">Save</i>
+                        </div>
+                        <div class="flip-card-caption">
+                            <p>This is the post caption.</p>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-image">
+                            <img src="vacation-sample.jpeg">
+                        </div>
+                        <div class="flip-card-stats">
+                            <i class="far fa-heart">Like</i>
+                            <i class="far fa-comment">Comment</i>
+                            <i class="far fa-bookmark">Save</i>
+                        </div>
+                        <div class="flip-card-caption">
+                            <p>This is the post caption.</p>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-image">
+                            <img src="vacation-sample.jpeg">
+                        </div>
+                        <div class="flip-card-stats">
+                            <i class="far fa-heart">Like</i>
+                            <i class="far fa-comment">Comment</i>
+                            <i class="far fa-bookmark">Save</i>
+                        </div>
+                        <div class="flip-card-caption">
+                            <p>This is the post caption.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer container-fluid">
+        <div class="row">
+            <a class="footer-brand"  href="index.html">
+                <img src="vacation_hub.png" class="d-inline-block align-top" alt="Vacation Hub">
+            </a>
+        </div>
+        <div class="footer-logo-text row">
+            <a>Vacation Hub</a>
+        </div>
+        <div class="row">
+            <ul class="footer-links">
+                <li class="col-lg-2">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="col-lg-2">
+                    <a class="nav-link" href="posts.html">Posts</a>
+                </li>
+                <li class="col-lg-2">
+                    <a class="nav-link" href="trips.html">Trips</a>
+                </li>
+                <li class="col-lg-2">
+                    <a class="nav-link" href="groups.html">Groups</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
+</body>
+</html>
